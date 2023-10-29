@@ -41,10 +41,11 @@ export default function ThemeContextProvider({
       if (theme === 'dark') {
         document.documentElement.classList.add('dark')
       }
-    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-      setTheme('dark')
-      document.documentElement.classList.add('dark')
     }
+    // } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+    //   setTheme('dark')
+    //   document.documentElement.classList.add('dark')
+    // } // always set default to light - don't look for preferred theme
   }, [])
   return (
     <ThemeContext.Provider
