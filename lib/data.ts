@@ -33,6 +33,8 @@ import vscode from '@/public/vscode.png'
 import eclipse from '@/public/eclipse.png'
 import postman from '@/public/postman.png'
 import sql from '@/public/sql.png'
+import movement from '@/public/movement.png'
+import prisma from '@/public/prisma.png'
 
 export const links = [
   {
@@ -101,6 +103,21 @@ export const experiencesData = [
 ] as const
 
 export const projectsData = [
+  {
+    title: 'Movement',
+    description:
+      'I created a full-stack web application to log my workouts and track my progress in the gym.',
+    tags: [
+      'React',
+      'Next.js',
+      'TailwindCSS',
+      'MongoDB',
+      'Prisma',
+      'TailwindCSS',
+    ],
+    imageUrl: movement,
+    link: 'https://movement-next.vercel.app',
+  },
   {
     title: 'CineFind',
     description:
@@ -183,6 +200,10 @@ export const skillsData = [
   {
     name: 'Bootstrap',
     logo: bootstrap,
+  },
+  {
+    name: 'Prisma',
+    logo: prisma,
   },
   {
     name: 'MongoDB',

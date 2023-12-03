@@ -17,7 +17,6 @@ export default function Home() {
       <Projects />
       <Experience />
       <Contact />
-
       <Toaster
         position="bottom-right"
         toastOptions={{
