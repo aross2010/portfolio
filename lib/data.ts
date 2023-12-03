@@ -108,7 +108,7 @@ export const projectsData = [
     description:
       'I created a full-stack web application to log my workouts and track my progress in the gym.',
     tags: [
-      'React',
+      'Typescript',
       'Next.js',
       'TailwindCSS',
       'MongoDB',

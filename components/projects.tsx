@@ -5,10 +5,10 @@ import SectionHeading from './section-heading'
 import { projectsData } from '@/lib/data'
 import Project from './project'
 import { useSectionInView } from '@/lib/hooks'
+import { useInView } from 'react-intersection-observer'
 
 export default function Projects() {
-  const { ref } = useSectionInView('Projects')
-
+  const { ref } = useSectionInView('Projects', 0.5)
   return (
     <section
       ref={ref}
