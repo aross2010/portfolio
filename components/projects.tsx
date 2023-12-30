@@ -16,20 +16,12 @@ export default function Projects() {
       className="scroll-mt-28 mb-28"
     >
       <SectionHeading>My projects</SectionHeading>
-      <DisplayedProjects />
-    </section>
-  )
-}
-
-function DisplayedProjects() {
-  return projectsData.map((project, index) => {
-    return (
-      <div>
+      {projectsData.map((project, index) => (
         <Project
           {...project}
           key={index}
         />
-      </div>
-    )
-  })
+      ))}
+    </section>
+  )
 }
