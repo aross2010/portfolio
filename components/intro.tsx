@@ -31,11 +31,9 @@ export default function Intro() {
               duration: 0.2,
             }}
           >
-            <Image
+            <img
               alt="Alex Ross portrait"
-              src={profileImg}
-              quality="95"
-              priority={true}
+              src={profileImg.src}
               className="h-[120px] w-[120px] rounded-full border-[0.35rem] border-white object-cover object-center shadow-xl"
             />
           </motion.div>

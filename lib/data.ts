@@ -112,7 +112,6 @@ export const projectsData = [
       'Typescript',
       'Next.js',
       'TailwindCSS',
-
       'TailwindCSS',
       'Spotify API',
     ],
