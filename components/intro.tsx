@@ -103,24 +103,25 @@ export default function Intro() {
           Resume{' '}
           <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
         </a>
-
-        <a
-          className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full
+        <div className="flex flex-row items-center sm:gap-4 gap-2">
+          <a
+            className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full
           focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60 max-h-[3rem] max-w-[3rem]
         "
-          href="https://www.linkedin.com/in/alex-ross-32b278236/"
-          target="_blank"
-        >
-          <FaLinkedin />
-        </a>
+            href="https://www.linkedin.com/in/alex-ross-32b278236/"
+            target="_blank"
+          >
+            <FaLinkedin />
+          </a>
 
-        <a
-          className="bg-white p-4 text-[1.35rem] text-gray-700 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60 max-h-[3rem] max-w-[3rem]"
-          href="https://github.com/aross2010"
-          target="_blank"
-        >
-          <FaGithubSquare />
-        </a>
+          <a
+            className="bg-white p-4 text-[1.35rem] text-gray-700 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60 max-h-[3rem] max-w-[3rem]"
+            href="https://github.com/aross2010"
+            target="_blank"
+          >
+            <FaGithubSquare />
+          </a>
+        </div>
       </motion.div>
     </section>
   )
