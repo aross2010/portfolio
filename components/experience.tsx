@@ -13,7 +13,7 @@ import { useSectionInView } from '@/lib/hooks'
 import { useTheme } from '@/context/theme-context'
 
 export default function Experience() {
-  const { ref } = useSectionInView('Experience')
+  const { ref } = useSectionInView('Experience', 0.25)
   const { ref: ref2, inView } = useInView({
     triggerOnce: true,
     threshold: 0.2,

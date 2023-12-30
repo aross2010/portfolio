@@ -16,25 +16,18 @@ export default function About() {
     >
       <SectionHeading>About Me</SectionHeading>
       <p className="mb-3">
-        After studying to become a Physical Therapist for four years, I decided
-        to pursue my passion for programming, specifically{' '}
-        <span className="font-bold">Web Development</span>. I have completed all
-        lower division Computer Science coursework and am expected to transfer
-        to San Jose State University to graduate in December 2025. I am based in{' '}
-        San Jose, CA, looking for internships to kickstart my career! My current
-        development stack includes <span className="font-bold">React</span>,{' '}
-        <span className="font-bold">TypeScript</span>,{' '}
-        <span className="font-bold">Next.js</span>,{' '}
-        <span className="font-bold">ExpressJS</span>,{' '}
-        <span className="font-bold">MongoDB</span>, and{' '}
-        <span className="font-bold">TailwindCSS</span>. However, I am always
-        open to opportunites that allow me learn new technologies and evolve as
-        a developer!
+        I &apos;m a Software Engineer student at San Jose State University, with
+        a passion for creating functional web applications. Most of my
+        application building experience lies within the JavaScript ecosystem,
+        creating projects with React.js, Next.js, TypeScript, Node.js, and more.
+        However, I have mastered the fundamemtals of programming with Java and
+        C, and I am always looking for opportunites to evolve as a developer and
+        learn new technologies.
       </p>
       <p>
-        Outside of programming, I love watching movies, playing video games,
-        listening to hip-hop, playing basketball, and hanging out with my
-        friends and family. Hope to hear from you soon!
+        I aim to combine my interest for sports, movies, music, and fitness with
+        my programming knowledge to create applications that bring people of
+        these worlds together.
       </p>
     </motion.section>
   )
