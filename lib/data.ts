@@ -12,6 +12,7 @@ import { LuBookOpenCheck } from 'react-icons/lu'
 import cinefindImg from '@/public/cinefind-home-page.png'
 import cImg from '@/public/c-project.png'
 import portfolioImg from '@/public/portfolio.png'
+import spotlefyImg from '@/public/spotlefy.png'
 import html from '@/public/html.png'
 import css from '@/public/css.png'
 import typescript from '@/public/typescript.png'
@@ -104,6 +105,22 @@ export const experiencesData = [
 
 export const projectsData = [
   {
+    title: 'Spotlefy',
+    description:
+      'A full-stack web application that utilizes the Spotify API to allow users to create their own Heardle game using an artists catalog or a Spotify playlist.',
+    tags: [
+      'Typescript',
+      'Next.js',
+      'TailwindCSS',
+
+      'TailwindCSS',
+      'Spotify API',
+    ],
+    imageUrl: spotlefyImg,
+    code: 'https://github.com/aross2010/spotlefy',
+    link: 'https://spotlefy-heardle.vercel.app/',
+  },
+  {
     title: 'Movement',
     description:
       'I created a full-stack web application to log my workouts and track my progress in the gym.',
@@ -116,6 +133,7 @@ export const projectsData = [
       'TailwindCSS',
     ],
     imageUrl: movement,
+    code: 'https://github.com/aross2010/movement-next',
     link: 'https://movement-next.vercel.app',
   },
   {
@@ -124,6 +142,7 @@ export const projectsData = [
       'I combined my love for film and creating to make CineFind, the full-stack web application that includes full CRUD operations, REST API, user authentication (JWT), and much more!',
     tags: ['React', 'Node.js', 'Express.js', 'MongoDB', 'Vercel'],
     imageUrl: cinefindImg,
+    code: 'https://github.com/aross2010/CineFind',
     link: 'https://cinefind.vercel.app/',
   },
   {
@@ -132,6 +151,7 @@ export const projectsData = [
       'Applied new Next.js features (App Router & Server Actions) in addition to popular libraries such as Framer Motion, React Email, Resend, and more to create a user-friendly experience.',
     tags: ['React', 'Next.js', 'TailwindCSS', 'Framer Motion'],
     imageUrl: portfolioImg,
+    code: 'https://github.com/aross2010/portfolio',
     link: 'https://alex-ross-dev.vercel.app/',
   },
   {
@@ -140,6 +160,7 @@ export const projectsData = [
       'I wrote a C program to collect and validate data from a temperature sensor, store the data using MariaDB, and analyze the data via SQL queries.',
     tags: ['C', 'SQL', 'MariaDB', 'Linux'],
     imageUrl: cImg,
+    code: 'https://github.com/aross2010/Temperature-Analysis',
     link: 'https://github.com/aross2010/Temperature-Sensor-Project',
   },
 ] as const
