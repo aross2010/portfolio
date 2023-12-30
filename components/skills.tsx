@@ -45,11 +45,10 @@ export default function Skills() {
               custom={i}
               className="bg-white borderBlack rounded-xl px-4 py-2 shadow-md dark:bg-white/10 dark:text-white/80 flex items-center gap-2"
             >
-              <Image
-                src={skill.logo}
+              <img
+                src={skill.logo.src}
                 alt={`${skill.name} logo`}
-                width={20}
-                height={20}
+                className="w-[20px] h-[20px]"
               />
               {skill.name}
             </motion.li>
