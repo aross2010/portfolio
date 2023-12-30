@@ -12,6 +12,7 @@ import { LuBookOpenCheck } from 'react-icons/lu'
 import cinefindImg from '@/public/cinefind-home-page.png'
 import cImg from '@/public/c-project.png'
 import portfolioImg from '@/public/portfolio.png'
+import spotify from '@/public/spotify.png'
 import spotlefyImg from '@/public/spotlefy.png'
 import html from '@/public/html.png'
 import css from '@/public/css.png'
@@ -93,7 +94,7 @@ export const experiencesData = [
     date: 'March 2022 - September 2022',
   },
   {
-    title: 'B.S. Computer Science',
+    title: 'Computer Science',
     location: 'West Valley College, Saratoga, CA',
     gpa: '4.0',
     description:
@@ -101,20 +102,23 @@ export const experiencesData = [
     icon: React.createElement(LuBookOpenCheck),
     date: 'September 2022 - June 2023',
   },
+  {
+    title: 'B.S. Software Engineering',
+    location: 'San Jose State University, San Jose, CA',
+    gpa: null,
+    description:
+      'I am currently pursuing a B.S. in Software Engineering at SJSU, on pace to graduate some time in 2025.',
+    icon: React.createElement(LuBookOpenCheck),
+    date: 'January 2024 - 2025',
+  },
 ] as const
 
 export const projectsData = [
   {
     title: 'Spotlefy',
     description:
-      'A full-stack web application that utilizes the Spotify API to allow users to create their own Heardle game using an artists catalog or a Spotify playlist.',
-    tags: [
-      'Typescript',
-      'Next.js',
-      'TailwindCSS',
-      'TailwindCSS',
-      'Spotify API',
-    ],
+      "A full-stack web application that utilizes the Spotify API to allow users to create their own Heardle game using an artist's catalog or a Spotify playlist.",
+    tags: [typescript, next, react, tailwind, spotify],
     imageUrl: spotlefyImg,
     code: 'https://github.com/aross2010/spotlefy',
     link: 'https://spotlefy-heardle.vercel.app/',
@@ -122,15 +126,8 @@ export const projectsData = [
   {
     title: 'Movement',
     description:
-      'I created a full-stack web application to log my workouts and track my progress in the gym.',
-    tags: [
-      'Typescript',
-      'Next.js',
-      'TailwindCSS',
-      'MongoDB',
-      'Prisma',
-      'TailwindCSS',
-    ],
+      'A full-stack web application that allows users to log their workouts and track their progress in the gym through visualized charts and graphs from Chart.js.',
+    tags: [typescript, next, react, tailwind, mongodb, prisma],
     imageUrl: movement,
     code: 'https://github.com/aross2010/movement-next',
     link: 'https://movement-next.vercel.app',
@@ -138,29 +135,29 @@ export const projectsData = [
   {
     title: 'CineFind',
     description:
-      'I combined my love for film and creating to make CineFind, the full-stack web application that includes full CRUD operations, REST API, user authentication (JWT), and much more!',
-    tags: ['React', 'Node.js', 'Express.js', 'MongoDB', 'Vercel'],
+      'A full-stack web application that allows users to find films to watch through a variety of filters, save films with lists, review and discuss films with other users, and play the CineQ movie guessing game to test their movie IQ.',
+    tags: [javascript, react, node, express, mongodb],
     imageUrl: cinefindImg,
     code: 'https://github.com/aross2010/CineFind',
     link: 'https://cinefind.vercel.app/',
   },
-  {
-    title: 'My Portfolio',
-    description:
-      'Applied new Next.js features (App Router & Server Actions) in addition to popular libraries such as Framer Motion, React Email, Resend, and more to create a user-friendly experience.',
-    tags: ['React', 'Next.js', 'TailwindCSS', 'Framer Motion'],
-    imageUrl: portfolioImg,
-    code: 'https://github.com/aross2010/portfolio',
-    link: 'https://alex-ross-dev.vercel.app/',
-  },
+  // {
+  //   title: 'My Portfolio',
+  //   description:
+  //     'Applied new Next.js features (App Router & Server Actions) in addition to popular libraries such as Framer Motion, React Email, Resend, and more to create a user-friendly experience.',
+  //   tags: ['React', 'Next.js', 'TailwindCSS', 'Framer Motion'],
+  //   imageUrl: portfolioImg,
+  //   code: 'https://github.com/aross2010/portfolio',
+  //   link: 'https://alex-ross-dev.vercel.app/',
+  // },
   {
     title: 'Temperature Analysis',
     description:
       'I wrote a C program to collect and validate data from a temperature sensor, store the data using MariaDB, and analyze the data via SQL queries.',
-    tags: ['C', 'SQL', 'MariaDB', 'Linux'],
+    tags: [c, maria, sql],
     imageUrl: cImg,
     code: 'https://github.com/aross2010/Temperature-Analysis',
-    link: 'https://github.com/aross2010/Temperature-Sensor-Project',
+    link: null,
   },
 ] as const
 
