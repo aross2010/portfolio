@@ -71,7 +71,7 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        {"Hello, I'm Alex, a college student and devoted developer seeking an"}
+        {"Hello, I'm Alex, a Software Engineering student at SJSU seeking an"}
         <span className="font-bold"> internship</span> as a{' '}
         <span className="font-bold">front-end</span> or{' '}
         <span className="font-bold">full-stack</span> developer.
