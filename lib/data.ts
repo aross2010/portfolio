@@ -117,7 +117,7 @@ export const projectsData = [
   {
     title: 'Spotlefy',
     description:
-      "A full-stack web application that utilizes the Spotify API to allow users to create their own Heardle game using an artist's catalog or a Spotify playlist.",
+      "A web application that allow users to create their own Heardle game using an artist's catalog or a Spotify playlist.",
     tags: [typescript, next, react, tailwind, spotify],
     imageUrl: spotlefyImg,
     code: 'https://github.com/aross2010/spotlefy',
@@ -135,7 +135,7 @@ export const projectsData = [
   {
     title: 'CineFind',
     description:
-      'A full-stack web application that allows users to find films to watch through a variety of filters, save films with lists, review and discuss films with other users, and play the CineQ movie guessing game to test their movie IQ.',
+      'A full-stack web application that allows users to find films to watch through a variety of filters, save films with lists, review and discuss films with other users, and play the CineQ movie guessing game.',
     tags: [javascript, react, node, express, mongodb, tmdb],
     imageUrl: cinefindImg,
     code: 'https://github.com/aross2010/CineFind',
