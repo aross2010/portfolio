@@ -199,11 +199,11 @@ export const skillsData = [
     logo: node,
   },
   {
-    name: 'Express',
+    name: 'Express.js',
     logo: express,
   },
   {
-    name: 'React',
+    name: 'React.js',
     logo: react,
   },
   {
@@ -211,7 +211,7 @@ export const skillsData = [
     logo: next,
   },
   {
-    name: 'TailwindCSS',
+    name: 'Tailwind CSS',
     logo: tailwind,
   },
   {
