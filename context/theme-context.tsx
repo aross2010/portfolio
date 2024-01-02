@@ -19,7 +19,7 @@ const ThemeContext = createContext<ThemeContextType | null>(null)
 export default function ThemeContextProvider({
   children,
 }: ThemeContextProviderProps) {
-  const [theme, setTheme] = useState<Theme>('light')
+  const [theme, setTheme] = useState<Theme>('dark')
 
   const toggleTheme = () => {
     if (theme === 'light') {
@@ -41,11 +41,10 @@ export default function ThemeContextProvider({
       if (theme === 'dark') {
         document.documentElement.classList.add('dark')
       }
-    }
-    // } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-    //   setTheme('dark')
-    //   document.documentElement.classList.add('dark')
-    // } // always set default to light - don't look for preferred theme
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+      setTheme('dark')
+      document.documentElement.classList.add('dark')
+    } // always set default to light - don't look for preferred theme
   }, [])
   return (
     <ThemeContext.Provider

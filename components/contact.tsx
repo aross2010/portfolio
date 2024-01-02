@@ -1,6 +1,6 @@
 'use client'
 
-import React from 'react'
+import React, { useState } from 'react'
 import SectionHeading from './section-heading'
 import { motion } from 'framer-motion'
 import { useSectionInView } from '@/lib/hooks'
@@ -10,6 +10,10 @@ import toast, { Toaster } from 'react-hot-toast'
 
 export default function Contact() {
   const { ref } = useSectionInView('Contact')
+  const [data, setData] = useState({
+    email: '',
+    message: '',
+  })
 
   return (
     <motion.section
@@ -48,8 +52,8 @@ export default function Contact() {
           if (error) {
             toast.error(error)
           }
-
-          toast.success('Successfully sent email!')
+          setData({ email: '', message: '' })
+          toast.success('Sent! Thanks for reaching out!')
         }}
       >
         <input
@@ -58,6 +62,8 @@ export default function Contact() {
           placeholder="Your e-mail"
           name="senderEmail"
           maxLength={100}
+          value={data.email}
+          onChange={(e) => setData({ ...data, email: e.target.value })}
           required
         />
         <textarea
@@ -65,6 +71,8 @@ export default function Contact() {
           name="senderMessage"
           placeholder="Your message"
           maxLength={5000}
+          value={data.message}
+          onChange={(e) => setData({ ...data, message: e.target.value })}
           required
         />
         <SubmitBtn />

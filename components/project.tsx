@@ -66,19 +66,21 @@ export default function Project({
                 link ? 'grid-cols-2 gap-2' : 'grid-cols-1'
               }`}
             >
-              <Link
+              <a
                 className="py-2 active:scale-95 transition-all dark:bg-white dark:text-gray-950 bg-gray-950 text-gray-50 rounded-md flex justify-center items-center gap-2"
                 href={code}
+                target="_blank"
               >
                 <FaGithub className="text-xl" /> Code
-              </Link>
+              </a>
               {link && (
-                <Link
+                <a
                   className="py-2 active:scale-95 transition-all dark:bg-white dark:text-gray-950 bg-gray-950 text-gray-50 rounded-md flex justify-center items-center gap-2"
                   href={link}
+                  target="_blank"
                 >
                   <FaLink /> Website
-                </Link>
+                </a>
               )}
             </div>
           </div>

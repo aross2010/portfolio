@@ -11,7 +11,7 @@ import {
 import { LuBookOpenCheck } from 'react-icons/lu'
 import cinefindImg from '@/public/cinefind-home-page.png'
 import cImg from '@/public/c-project.png'
-import portfolioImg from '@/public/portfolio.png'
+import tmdb from '@/public/tmdb.png'
 import spotify from '@/public/spotify.png'
 import spotlefyImg from '@/public/spotlefy.png'
 import html from '@/public/html.png'
@@ -71,9 +71,9 @@ export const experiencesData = [
     location: 'San Francisco State University, San Francsisco, CA',
     gpa: '3.9',
     description:
-      'After transfering with an A.A. in Kinesiology, I continued my studies at SFSU, where I ultimately made the decision to pursue a career in programming.',
+      'I studied Kinesiology for four years prior to transitioning to Software Engineering.',
     icon: React.createElement(LuBookOpenCheck),
-    date: 'Janurary 2021 - June 2022',
+    date: 'Jan. 2021 - Jun. 2022',
   },
   {
     title: 'Physical Therapy Aide',
@@ -82,34 +82,34 @@ export const experiencesData = [
     description:
       'I collaborated with the lead Physical Therapist in creating rehabilition plans for clients and provided individualized care to patients.',
     icon: React.createElement(CgWorkAlt),
-    date: 'Janurary 2022 - May 2022',
+    date: 'Jan. 2022 - May 2022',
   },
   {
-    title: 'Theatre Manager, Human Resources',
+    title: 'Operations Manager, Human Resources',
     location: 'AMC Theatres, San Jose, CA',
     gpa: null,
     description:
       'I ascended the ranks of the theatre to become a Manager after three years. I was responsible for recruiting, scheduling staff, managing payroll, and managing 40+ employees to foster a positive workplace culture.',
     icon: React.createElement(CgWorkAlt),
-    date: 'March 2022 - September 2022',
+    date: 'Mar. 2022 - Sep. 2022',
   },
   {
     title: 'Computer Science',
     location: 'West Valley College, Saratoga, CA',
     gpa: '4.0',
     description:
-      'Completed all lower division courses for transfer to San Jose State University at West Valley College. Coursework included: OOP, Data Structures, and Algrorithms using Java, C programming, and ARM Assembly Language programming.',
+      'Completed all lower division courses for SWE at SJSU. Coursework included: OOP, Data Structures, and Algrorithms using Java, C programming, and ARM Assembly Language programming.',
     icon: React.createElement(LuBookOpenCheck),
-    date: 'September 2022 - June 2023',
+    date: 'Sep. 2022 - Jun. 2023',
   },
   {
     title: 'B.S. Software Engineering',
     location: 'San Jose State University, San Jose, CA',
     gpa: null,
     description:
-      'I am currently pursuing a B.S. in Software Engineering at SJSU, on pace to graduate some time in 2025.',
+      'I am currently studying Software Engineering at SJSU, on pace to graduate with my B.S. in 2025.',
     icon: React.createElement(LuBookOpenCheck),
-    date: 'January 2024 - 2025',
+    date: 'Jan. 2024 - 2025',
   },
 ] as const
 
@@ -136,7 +136,7 @@ export const projectsData = [
     title: 'CineFind',
     description:
       'A full-stack web application that allows users to find films to watch through a variety of filters, save films with lists, review and discuss films with other users, and play the CineQ movie guessing game to test their movie IQ.',
-    tags: [javascript, react, node, express, mongodb],
+    tags: [javascript, react, node, express, mongodb, tmdb],
     imageUrl: cinefindImg,
     code: 'https://github.com/aross2010/CineFind',
     link: 'https://cinefind.vercel.app/',

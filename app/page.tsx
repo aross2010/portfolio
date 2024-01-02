@@ -18,9 +18,9 @@ export default function Home() {
       <Experience />
       <Contact />
       <Toaster
-        position="bottom-right"
+        position="top-center"
         toastOptions={{
-          duration: 4000,
+          duration: 5000,
         }}
       />
     </main>

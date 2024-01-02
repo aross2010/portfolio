@@ -16,7 +16,7 @@ export default function Experience() {
   const { ref } = useSectionInView('Experience', 0.25)
   const { ref: ref2, inView } = useInView({
     triggerOnce: true,
-    threshold: 0.2,
+    threshold: 0.1,
   })
   const { theme } = useTheme()
   return (
@@ -46,22 +46,22 @@ export default function Experience() {
                   contentArrowStyle={{
                     borderRight:
                       theme === 'light'
-                        ? '0.4rem solid  #9ca3af'
+                        ? '0.4rem solid #9ca3af'
                         : '0.4rem solid rgba(255, 255, 255, 0.05)',
                   }}
                   date={exp.date}
                   icon={exp.icon}
                   iconStyle={{
+                    outline: 'none',
                     background:
                       theme === 'light' ? 'white' : 'rgba(100, 100, 100, 1)',
-
                     fontSize: '1.5rem',
                   }}
                 >
                   <h3 className="font-semibold capitalize">{exp.title}</h3>
                   {exp.gpa !== null && (
-                    <span className="text-sm  dark:text-white/50">
-                      GPA: <span className="font-semibold">{exp.gpa}</span>
+                    <span className=" text-sm dark:text-white/50 font-semibold">
+                      {exp.gpa} GPA
                     </span>
                   )}
                   <p className="font-normal !mt-0 text-gray-500 dark:text-white/50">

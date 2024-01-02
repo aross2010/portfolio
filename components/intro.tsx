@@ -90,7 +90,7 @@ export default function Intro() {
             setActiveSection('Contact')
             setTimeOfLastClick(Date.now())
           }}
-          className=" group bg-green-500 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-green-550 active:scale-105 transition"
+          className=" group bg-purple-600 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-green-550 active:scale-105 transition"
         >
           Contact me{' '}
           <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
