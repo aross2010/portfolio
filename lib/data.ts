@@ -37,6 +37,7 @@ import postman from '@/public/postman.png'
 import sql from '@/public/sql.png'
 import movement from '@/public/movement.png'
 import prisma from '@/public/prisma.png'
+import letaPort from '@/public/leta-port.png'
 
 export const links = [
   {
@@ -141,15 +142,16 @@ export const projectsData = [
     code: 'https://github.com/aross2010/CineFind',
     link: 'https://cinefind.vercel.app/',
   },
-  // {
-  //   title: 'My Portfolio',
-  //   description:
-  //     'Applied new Next.js features (App Router & Server Actions) in addition to popular libraries such as Framer Motion, React Email, Resend, and more to create a user-friendly experience.',
-  //   tags: ['React', 'Next.js', 'TailwindCSS', 'Framer Motion'],
-  //   imageUrl: portfolioImg,
-  //   code: 'https://github.com/aross2010/portfolio',
-  //   link: 'https://alex-ross-dev.vercel.app/',
-  // },
+  {
+    title: 'Student Portfolio',
+    description:
+      'Collaborated with a fellow SJSU Interior Design student to bring their vision of their portfoilio to life.',
+    tags: [typescript, next, react, tailwind],
+    imageUrl: letaPort,
+    code: 'https://github.com/aross2010/leta-portfolio',
+    link: 'https://www.letapham.com',
+  },
+
   {
     title: 'Temperature Analysis',
     description:

@@ -64,7 +64,7 @@ export default function Intro() {
           duration: 0.25,
         }}
       >
-        <span>📍 San Jose, CA</span>
+        <h5>📍 San Jose, CA</h5>
       </motion.div>
       <motion.h1
         className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl"
