@@ -31,9 +31,9 @@ export default function Intro() {
               duration: 0.2,
             }}
           >
-            <img
+            <Image
               alt="Alex Ross portrait"
-              src={profileImg.src}
+              src={profileImg}
               className="h-[120px] w-[120px] rounded-full border-[0.35rem] border-white object-cover object-center shadow-xl"
             />
           </motion.div>
@@ -71,10 +71,9 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        {"Hello, I'm Alex, a Software Engineering student at SJSU seeking an"}
-        <span className="font-bold"> internship</span> as a{' '}
-        <span className="font-bold">front-end</span> or{' '}
-        <span className="font-bold">full-stack</span> developer.
+        {
+          "Hello! I'm Alex, a Software Engineering student at San Jose State University."
+        }
       </motion.h1>
       <motion.div
         initial={{ opacity: 0, y: 100 }}
@@ -98,7 +97,7 @@ export default function Intro() {
         <a
           className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer border border-black/10 dark:bg-white/10"
           href="/Alex_Ross_Resume.pdf"
-          download
+          target="_blank"
         >
           Resume{' '}
           <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />

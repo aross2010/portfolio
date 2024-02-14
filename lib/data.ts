@@ -184,10 +184,7 @@ export const skillsData = [
     name: 'Java',
     logo: java,
   },
-  {
-    name: 'Python',
-    logo: python,
-  },
+
   {
     name: 'C',
     logo: c,
