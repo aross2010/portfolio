@@ -16,8 +16,8 @@ export default function About() {
     >
       <SectionHeading>About Me</SectionHeading>
       <p className="mb-3">
-        I &apos;m a Software Engineer student at San Jose State University, with
-        a passion for creating functional web applications. Most of my
+        I&apos;m a Software Engineer student at San Jose State University, with
+        a passion for creating exceptional user experiences. Most of my
         application building experience lies within the JavaScript ecosystem,
         creating projects with React.js, Next.js, TypeScript, Node.js, and more.
         However, I have mastered the fundamemtals of programming with Java and
@@ -26,7 +26,7 @@ export default function About() {
       </p>
       <p>
         I aim to combine my interest for sports, movies, music, and fitness with
-        my programming knowledge to create applications that bring people of
+        my programming abilities to create applications that bring people of
         these worlds together.
       </p>
     </motion.section>
