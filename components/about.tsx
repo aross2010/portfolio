@@ -20,7 +20,7 @@ export default function About() {
         a passion for creating exceptional user experiences. Most of my
         application building experience lies within the JavaScript ecosystem,
         creating projects with React.js, Next.js, TypeScript, Node.js, and more.
-        However, I have mastered the fundamemtals of programming with Java and
+        However, I have mastered the fundamentals of programming with Java and
         C, and I am always looking for opportunites to evolve as a developer and
         learn new technologies.
       </p>
