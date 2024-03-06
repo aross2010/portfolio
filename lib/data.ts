@@ -142,15 +142,15 @@ export const projectsData = [
     code: 'https://github.com/aross2010/CineFind',
     link: 'https://cinefind.vercel.app/',
   },
-  {
-    title: 'Student Portfolio',
-    description:
-      'Collaborated with a fellow SJSU Interior Design student to bring their vision of their portfoilio to life.',
-    tags: [typescript, next, react, tailwind],
-    imageUrl: letaPort,
-    code: 'https://github.com/aross2010/leta-portfolio',
-    link: 'https://www.letapham.com',
-  },
+  // {
+  //   title: 'Student Portfolio',
+  //   description:
+  //     'Collaborated with a fellow SJSU Interior Design student to bring their vision of their portfoilio to life.',
+  //   tags: [typescript, next, react, tailwind],
+  //   imageUrl: letaPort,
+  //   code: 'https://github.com/aross2010/leta-portfolio',
+  //   link: 'https://www.letapham.com',
+  // },
 
   {
     title: 'Temperature Analysis',
